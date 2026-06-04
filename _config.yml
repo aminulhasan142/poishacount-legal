@@ -1,0 +1,6 @@
+# GitHub Pages config. The `cayman` theme is GitHub's default-friendly,
+# minimal, mobile-readable template — exactly what a single-page legal
+# document wants.
+title: PoishaCount Legal
+description: Privacy policy and other legal documents for the PoishaCount expense-tracker app.
+theme: jekyll-theme-cayman
