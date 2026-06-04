@@ -21,11 +21,11 @@ and only activate after you choose to sign in.
 
 ## 1. The short version
 
-| | |
-|---|---|
-| Without signing in | Nothing leaves your device. Your expenses, budgets, categories, and subscriptions stay in the app's local database (Hive) on your phone. |
+|                           |                                                                                                                                                                                        |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Without signing in        | Nothing leaves your device. Your expenses, budgets, categories, and subscriptions stay in the app's local database (Hive) on your phone.                                               |
 | After signing in (Google) | Your data is mirrored to your private space in Firebase Firestore (`users/{your-uid}/**`), readable only by you, gated by Firestore security rules. Analytics is enabled in aggregate. |
-| Want to delete everything | **Settings → Delete account** wipes Firestore data first, then your auth record, then local data on the device. Irreversible. |
+| Want to delete everything | **Settings → Delete account** wipes Firestore data first, then your auth record, then local data on the device. Irreversible.                                                          |
 
 ---
 
@@ -88,12 +88,12 @@ any of your financial data with the request.
 
 ## 3. Where your data is stored
 
-| Data | Location | Region |
-|---|---|---|
-| Local app data (Hive) | On your device only | Your device |
-| Cloud-synced app data (signed-in users) | Firebase Firestore | `asia-southeast1` (Singapore) |
-| Auth records | Firebase Authentication | Google data centres |
-| Analytics events | Google Analytics for Firebase | Google data centres |
+| Data                                    | Location                      | Region                        |
+| --------------------------------------- | ----------------------------- | ----------------------------- |
+| Local app data (Hive)                   | On your device only           | Your device                   |
+| Cloud-synced app data (signed-in users) | Firebase Firestore            | `asia-southeast1` (Singapore) |
+| Auth records                            | Firebase Authentication       | Google data centres           |
+| Analytics events                        | Google Analytics for Firebase | Google data centres           |
 
 Google maintains industry-standard security practices for the services
 above. Firestore data is encrypted at rest and in transit. The app's
@@ -188,13 +188,13 @@ acceptance of the new policy.
 For privacy questions, data-deletion requests, or data-export requests:
 
 **Aminul Hasan**  
-📧 *Replace this line with your contact email before publishing.*  
+📧 mahshoukhin142@gmail.com
 GitHub: [@aminulhasan142](https://github.com/aminulhasan142)
 
 We respond to privacy requests within 30 days, usually much faster.
 
 ---
 
-*This policy is published in plain Markdown. The source file lives at
+_This policy is published in plain Markdown. The source file lives at
 [github.com/aminulhasan142/poishacount-legal/blob/main/privacy.md](https://github.com/aminulhasan142/poishacount-legal/blob/main/privacy.md);
-the rendered version you're reading is auto-deployed via GitHub Pages.*
+the rendered version you're reading is auto-deployed via GitHub Pages._
